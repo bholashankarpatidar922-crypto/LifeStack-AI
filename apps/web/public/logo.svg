@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="lsGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+    <linearGradient id="lsGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="lsGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+  <!-- Base Stack Tier -->
+  <path d="M24 38L6 29L24 20L42 29L24 38Z" fill="url(#lsGrad1)" opacity="0.9" />
+  <!-- Middle Intelligence Tier -->
+  <path d="M24 28L10 21L24 14L38 21L24 28Z" fill="url(#lsGrad2)" opacity="0.95" />
+  <!-- Apex Decision Beacon -->
+  <path d="M24 18L14 13L24 8L34 13L24 18Z" fill="url(#lsGrad3)" />
+  <circle cx="24" cy="8" r="2.5" fill="#FFFFFF" />
+</svg>

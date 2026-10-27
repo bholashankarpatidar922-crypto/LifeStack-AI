@@ -1,0 +1,23 @@
+{
+  "name": "lifestack-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LifeStack - Personal Decision Intelligence Platform",
+  "scripts": {
+    "dev": "npm --prefix apps/web run dev",
+    "build": "npm --prefix apps/web run build",
+    "test": "npm --prefix apps/web run test",
+    "seed": "python scripts/seed.py",
+    "api": "python -m uvicorn apps.api.main:app --reload --port 8000"
+  },
+  "keywords": [
+    "decision-intelligence",
+    "rag",
+    "data-mining",
+    "visualization",
+    "fastapi",
+    "react"
+  ],
+  "author": "LifeStack Team",
+  "license": "MIT"
+}

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Node.js
+node_modules/
+dist/
+
+# Environment and secrets
+*.pem
+*.key
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
